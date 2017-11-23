@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: registry-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9010/eureka/
+
+server:
+  port: 9010
+
+#      eureka.client.register-with-eureka=false
+#      eureka.client.fetch-registry=false
+#
+#      logging.level.com.netflix.eureka=OFF
+#      logging.level.com.netflix.discovery=OFF
